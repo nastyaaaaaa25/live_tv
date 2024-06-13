@@ -1,0 +1,71 @@
+.square{
+    width: 1920px;
+    height: 1107px;
+    top: -106px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url(./img/BG.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.bg-body-tertiary{
+    background-color: #ffffff00 !important;
+}
+#kv{
+    transform: translateY(-160px);
+}
+body{
+    align-items: center;
+    justify-content: center;
+}
+div#navbarSupportedContent{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.big-con{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.min-con{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-150px);
+}
+.min-con h2{
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.min-con button:active{
+    color:#F87932;
+}
+.min-con button:hover{
+    background-color: #39BFA7;
+    transition: 0.7;
+    transform: rotate(360deg);
+}
+h2#\31txt{
+    color: #39BFA7;
+    
+}
+h2#\32txt{
+    color: #F87932;
+}
+.fotos #1f{
+}
+.beach{
+    background-image: url(./img/Mask\ group.png);
+}
+footer{
+    background-color: #151C21;
+}
