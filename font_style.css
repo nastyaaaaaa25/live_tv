@@ -40,5 +40,23 @@
     font-weight:500;
     font-style:normal;
 }
+@font-face {
+    font-family:"Monserrat" ;
+    src: url(./fonts/Montserrat-Regular.ttf);
+    font-weight:500;
+    font-style:normal;
+}
+@font-face {
+    font-family:"Monserrat" ;
+    src: url(./fonts/Montserrat-Light.ttf);
+    font-weight:300;
+    font-style:thin;
+}
+@font-face {
+    font-family:"Monserrat" ;
+    src: url(./fonts/Montserrat-Bold.ttf);
+    font-weight:700;
+    font-style: bold;
+}
 
     

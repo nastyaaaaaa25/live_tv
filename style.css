@@ -24,6 +24,8 @@ body{
     align-items: center;
     justify-content: center;
     width: 1920px;
+    display: flex;
+    flex-direction: column;
 }
 
     
@@ -260,6 +262,7 @@ img#img2{
     width: 100%;
 }
 .beach{
+    width: 1920px;
     height: 1006px;
     display: flex;
     align-items: center;
@@ -287,9 +290,139 @@ img#img2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transform: translateY(150px);
     
 }
 .beach .container img{
     margin: 50px;
 }
+.beach .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateY(273px);
+    
+}
+.beach .card{
+    width: 200px !important;
+    height: 200px;
+    transform: rotate(45deg);
+    margin: 0 60px 0 60px;
+    border: #39BFA7 15px solid;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.beach .card-body{
+    transform: rotate(-45deg) ;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.beach .card-subtitle{
+    transform: rotate(-45deg);
+    background-color:#39BFA7;
+    color: #ffffff !important;
+    border: #3f101099 6px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
 
+.beach p{
+    transform: rotate(45deg);
+}
+.Blog .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Blog{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 988px;
+    flex-direction: column;
+    margin: 200px 0;
+}
+.Blog h3{
+    font-size: 48px;
+    font-family: "Monserrat";
+    font-weight: 700;
+}
+.Blog h4{
+    font-size: 25px;letter-spacing: 2px;
+    padding: 20px 0;
+}
+.Blog h6{
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 400;
+    padding: 20px 0;
+    letter-spacing: 3px;
+}
+.albom{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 720px;
+    width: 1300px;
+    justify-content: space-between;
+}
+.albom img{
+    margin: 10px;
+}
+img#plane{
+    height: 584px;
+}
+.Blog a{
+    text-transform: uppercase;
+    position: relative;
+    color: #000000;
+    width: 200px;
+    height: 50px;
+    background: #F87932;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    font-family: "Lato";
+    font-weight: 500;
+    z-index: 1;
+}
+.Blog a::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+.Blog a:hover::before{
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+.container-roadmap{
+    
+}
