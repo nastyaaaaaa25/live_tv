@@ -1,4 +1,10 @@
 @import url('./font_style.css');
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
 .square{
     width: 1920px;
     height: 1107px;
@@ -424,5 +430,281 @@ img#plane{
     transform: scaleX(0);
 }
 .container-roadmap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/2_полоски.jpg);
+    background-color: #00000093;
+    width: 100%;
+    height: 1920px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+	background-size: cover;
+
+}
+.container-roadmap:before {
     
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.465);}
+
+.container-roadmap .card{
+    height: 100px;
+    background: none;
+}
+.container-roadmap .zagol h2{
+    font-family: "Marrie";
+    color: white;
+    font-size: 60px;
+}
+.container-roadmap .zagol p{
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 400;
+    padding: 20px 0;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+}
+.container-roadmap .zagol{
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.container-roadmap .ram{
+    width: 1398px;
+height: 1650px;
+top: 120px;
+left: 280px;
+gap: 0px;
+border: 5px #ffffff solid;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: absolute;
+
+}
+.container-roadmap .ram .left h3{
+    font-family: "Ave";
+    font-size: 60px;
+    color: #39BFA7;
+    width: 350px;
+}
+.container-roadmap .telo{
+    display: flex;
+    flex-direction: row;
+}
+.container-roadmap .ram .right{
+    transform: translateY(-50px);
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.right .col-md-4{
+    width: 100px !important;
+}
+.right .card-body{
+    width: 500px;
+}
+.right .col-md-8{
+    width: 300px !important;
+}
+.right .card{
+    align-items: baseline;
+    justify-content: baseline;
+    display: flex;
+    border: none;
+}
+.right .row{
+
+    width: 570px !important;
+}
+.right .card-title{
+    font-family: "Ave";
+    color: #969696;
+    font-size: 25px;
+}
+.right .card-text{
+    font-family: "Marrie";
+    font-size: 40px;
+    color: #DDDDDD;
+}
+.ram a{
+    text-transform: uppercase;
+    position: relative;
+    color: #ffffff;
+    width: 210px;
+    height: 60px;
+    background: #39BFA7;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+    z-index: 1;
+    
+}
+
+.ram a::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #F87932;
+    z-index: -1;
+    transform-origin: top;
+    transition: transform 1s ease;
+    transform: scaleX(1);
+}
+.ram a:hover::before{
+    transform-origin: top;
+    transition: transform 0.2s ease;
+    transform: scaleX(0);}
+    
+.journey h2{
+    margin-top: 100px;
+    font-family: "Marrie";
+    }
+    .journey h4{
+        font-family: "Lato";
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 2px;
+
+    }
+.journey .zag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.journey img{
+    margin: 20px 0;
+}
+.journey .form{
+    width: 800px;
+    margin: 100px 0;
+    font-family: "Lato";
+    font-weight: 700px;
+}
+
+.journey .form input#validationServer01{
+    height: 60px;
+    border-radius: 0%;
+    border: #39BFA7 4px solid;
+}
+.journey .form input#validationServer02{
+    height: 60px;
+    border-radius: 0%;
+    border: #39BFA7 4px solid;
+}
+.journey .form input#validationServer03{
+    height: 60px;
+    border-radius: 0%;
+    border: #39BFA7 4px solid;
+}
+.journey .form input#validationServer04{
+    height: 60px;
+    border-radius: 0%;
+    border: #39BFA7 4px solid;
+}
+.journey .form input#validationServer05{
+    height: 60px;
+    border-radius: 0%;
+    border: #39BFA7 4px solid;
+}
+.journey .form select#validationServer04{
+    height: 60px;
+    border-radius: 0%;
+    border: #39BFA7 4px solid;
+}
+.journey .form span#inputGroupPrepend3{
+    height: 60px;
+    border-radius: 0%;
+    border: #F87932 4px solid;
+    background-color: #F87932;
+    color: #ffffff;
+}
+.journey .form input#validationServerUsername{
+    height: 60px;
+    border-radius: 0%;
+    border: #39BFA7 4px solid;
+}
+input#Check3:checked{
+    background: #F87932;
+    border-color: #f5c2a4;
+    color: rgb(255, 255, 255);
+    z-index: -1;
+    background-image: var(--bs-form-check-bg-image);
+}
+.form-check-input:checked{
+    border-color: #f5c2a4 !important;
+}
+.form-check-input:focus {
+    border-color: #f5c2a4;
+    box-shadow: none !important;
+}
+button.btn.btn-primary{
+    background-color: #F87932;
+    border: #F87932 solid;
+    border-radius: 0ch;
+    height: 60px;
+    width: 210px;
+}
+footer{
+    background: #151C21;
+    width: 300%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div.mid{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer div.mid div.up{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 100px 0;
+    border-bottom: #414141 2px solid;
+}
+footer div.mid div.up .call{
+    width: 200px;
+    font-family: "Lato";
+}
+footer div.mid div.down{
+    padding: 100px 0;
+    color: #BBBBBB;
+    font-family: "Lato";
+    text-align: center;
+    
+}
+footer div.mid div.down h6{
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: 20px;
 }

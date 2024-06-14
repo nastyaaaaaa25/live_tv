@@ -58,5 +58,9 @@
     font-weight:700;
     font-style: bold;
 }
-
+@font-face {
+    font-family:"Ave" ;
+    src: url(./fonts/SedgwickAve-Regular.ttf);
+    font-weight:500;
+    font-style:normal;}
     
