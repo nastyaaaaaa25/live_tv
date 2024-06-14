@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 50px;
     
 }
 .bg-body-tertiary{
@@ -22,6 +23,7 @@
 body{
     align-items: center;
     justify-content: center;
+    width: 1920px;
 }
 
     
@@ -169,3 +171,125 @@ h2#\32txt{
 footer{
     background-color: #151C21;
 }
+
+/*relax*/
+
+.relax{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 100px 0 50px;
+
+}
+.relax .col-md-8 img{
+    height: 500px;
+    padding-left: 50px;
+}
+.relax .col-md-8{
+    display: flex;
+    flex-direction: row;
+}
+.relax h6{
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.col-md-4{
+    width: 100%;
+}
+.relax h5{
+    font-family: "Marrie";
+    font-size: 50px;
+    width: 350px;
+}
+.relax p{
+    font-family: "Lato";
+    font-size: 18px;
+    width: 420px;
+    margin: 15px 0px 100px 0 ;
+    
+}
+.relax .card-body{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.relax .card .md-3{
+    height: 500px;
+   
+}
+.relax .card{
+    border: 0cap;
+}
+.relax button{
+    width: 200px;
+    height: 50px;
+    background: #ffffff;
+    border: #000000 2px solid;
+    text-transform: uppercase;
+    font-weight: 500px;
+    margin: 20px 0 0 0;
+    
+}
+.relax a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Lato";
+    font-weight: 700px;
+}
+img#img2{
+    width: 600px;
+    height: 520px;
+    transform: translateY(-625px) translateX(-320px);
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    
+}
+ div.row.g-0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 580px;
+
+}
+.col-md-8{
+    width: 100%;
+}
+.beach{
+    height: 1006px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.beach h2{
+    font-size: 60px;
+    font-family: "Marrie";
+    width: 800px;
+    text-align: center;
+    color: #ffffff;
+}
+.beach h4{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 700px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}
+.beach .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.beach .container img{
+    margin: 50px;
+}
+
