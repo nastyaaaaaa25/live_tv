@@ -1097,6 +1097,10 @@ footer div.mid div.down h6{
         height: 30px;
         font-size: 10px;
         width: 110px;
+       
+    }
+    button.btn.btn-primary a{
+        text-decoration: none;
     }
     div.col-12{
         text-align: center;display: flex;
