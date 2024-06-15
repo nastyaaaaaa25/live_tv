@@ -33,7 +33,9 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+a{
+    text-decoration: none;
+}
     
 
 .big-con{
@@ -1003,6 +1005,7 @@ footer div.mid div.down h6{
         WIDTH: 200PX;
         TEXT-ALIGN: CENTER;
     }
+    
     .Blog .albom img#plane{
         height:107px;
         width: 50px;
@@ -1097,9 +1100,10 @@ footer div.mid div.down h6{
         height: 30px;
         font-size: 10px;
         width: 110px;
+        text-decoration: none !important;
        
     }
-    button.btn.btn-primary a{
+    div.col-12 a{
         text-decoration: none;
     }
     div.col-12{
