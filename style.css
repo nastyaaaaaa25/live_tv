@@ -7,7 +7,7 @@ html{
 }
 .square{
     width: 1920px;
-    height: 1107px;
+    height: 1125px;
     top: -106px;
     gap: 0px;
     opacity: 0px;
@@ -43,7 +43,7 @@ body{
     align-items: center;
 }
 .container-fluid{
-    transform: translateY(-38px);
+    transform: translateY(-50px);
     width:900px;
     margin: 0;
     display: flex;
@@ -104,74 +104,75 @@ a#nav-brand{
 }
 .min-con h2{
     font-size: 80px;
+    width: 600px;
     font-family:"Marie";
     font-weight: 600;
     text-shadow: #151c21b0 3px 3px;
     letter-spacing: 5px;
 }
 .min-con a{
-    margin-top: 100px;
-    position: relative;
+    margin-top: 20px;
     text-transform: uppercase;
-    z-index: 1;
-    text-decoration: none;
+    position: relative;
     color: #ffffff;
-    background: #F87932;
-    border: none;
-    width: 200px;
-    height: 50px;
+    width: 210px;
+    height: 60px;
+    background: #39BFA7;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Lato";
+    font-weight: 500;
+    z-index: 1;}
 
-}
-.min-con a::before{
+    .min-con a::before{
+    content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     width: 100%;
     height: 100%;
-    background: #39BFA7;
+    background: #F87932;
     z-index: -1;
-    transform-origin: left;
+    transform-origin: top;
     transition: transform 0.5s ease;
     transform: scaleX(1);
-    transition: 0.5s;
 }
-.min-con a:hover{
-    color: #ffffff;
-}
+
+
 .min-con a:hover::before{
-    transform-origin: right;
+    transform-origin: top;
     transition: transform 0.5s ease;
     transform: scaleX(0);
 }
-
-.carousel{
-    width: 200px;
-    height: 200px;
-
-    width: 100%;
-  height: 100%;
-  position: relative;
-
-  /* Восстанавливаем деформированное
-  содержимое */
-  transform: skew(-18deg, -18deg)
-    rotate(-45deg)
-    scale(1.05);
+.fotos{
+    margin-left: 40px;
+    width: 990px;
+    transform: translateY(-20px);
 }
+div.fotos img#foto2 {
+    transform: translateY(-143px) translateX(-116px);
+overflow: hidden;}
 
-
-
+div.fotos img#foto3 {
+    transform: translateX(-230px);
+}
+div.fotos img#foto4 {
+    transform: translateX(-48px) translateY(-125px);
+}
+div.fotos img#foto5 {
+    transform: translateX(16px) translateY(-150px);
+}
+div.fotos img#foto6 {
+    transform: translateX(-48px) translateY(-253px);
+}
 h2#\31txt{
     color: #39BFA7;
     
 }
 h2#\32txt{
     color: #F87932;
-}
-.fotos #1f{
 }
 .beach{
     background-image: url(./img/Mask\ group.png);
@@ -242,10 +243,39 @@ footer{
     
 }
 .relax a{
-    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
     color: #000000;
+    width: 210px;
+    height: 60px;
+    background: #F87932;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000000;
     font-family: "Lato";
-    font-weight: 700px;
+    font-weight: 500;
+    z-index: 1;}
+
+
+    .relax a::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+.relax a:hover::before{
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
 }
 img#img2{
     width: 600px;
@@ -322,14 +352,14 @@ img#img2{
     align-items: center;
     justify-content: center
 }
-.beach .card-body{
-    transform: rotate(-45deg) ;
+.beach .card-body {
+    transform: rotate(-45deg);
     text-align: center;
     height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
 .beach .card-subtitle{
     transform: rotate(-45deg);
@@ -347,9 +377,9 @@ img#img2{
     
 }
 
-.beach p{
-    transform: rotate(45deg);
-}
+.beach p {
+    transform: rotate(45deg) translateX(6px) translateY(3px);}
+
 .Blog .text{
     display: flex;
     justify-content: center;
@@ -399,8 +429,8 @@ img#plane{
     text-transform: uppercase;
     position: relative;
     color: #000000;
-    width: 200px;
-    height: 50px;
+    width: 210px;
+    height: 60px;
     background: #F87932;
     text-decoration: none;
     display: flex;
@@ -440,7 +470,6 @@ img#plane{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-	background-size: cover;
 
 }
 .container-roadmap:before {
@@ -496,9 +525,10 @@ justify-content: center;
 position: absolute;
 
 }
-.container-roadmap .ram .left h3{
+.container-roadmap .ram .left h3 {
     font-family: "Ave";
-    font-size: 60px;
+    transform: translateY(-20px);
+    font-size: 70px;
     color: #39BFA7;
     width: 350px;
 }
@@ -578,7 +608,11 @@ position: absolute;
     transform-origin: top;
     transition: transform 0.2s ease;
     transform: scaleX(0);}
+
+.journey{
     
+}
+
 .journey h2{
     margin-top: 100px;
     font-family: "Marrie";
@@ -663,12 +697,43 @@ input#Check3:checked{
     box-shadow: none !important;
 }
 button.btn.btn-primary{
-    background-color: #F87932;
-    border: #F87932 solid;
-    border-radius: 0ch;
-    height: 60px;
+    text-transform: uppercase;
+    position: relative;
+    color: #ffffff;
     width: 210px;
+    height: 60px;
+    background: #39BFA7;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 15px;
+    z-index: 1;
+    border: none;
+    border-radius: 0cap;
+} 
+    
+
+button.btn.btn-primary::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #F87932;
+    z-index: -1;
+    transform-origin: top;
+    transition: transform 1s ease;
+    transform: scaleX(1);
 }
+button.btn.btn-primary:hover::before{
+    transform-origin: top;
+    transition: transform 0.2s ease;
+    transform: scaleX(0);}
+
 footer{
     background: #151C21;
     width: 300%;
