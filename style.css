@@ -609,10 +609,6 @@ position: absolute;
     transition: transform 0.2s ease;
     transform: scaleX(0);}
 
-.journey{
-    
-}
-
 .journey h2{
     margin-top: 100px;
     font-family: "Marrie";
@@ -772,4 +768,362 @@ footer div.mid div.down h6{
     letter-spacing: 2px;
     font-weight: 400;
     margin: 20px;
+}
+@media(max-width:320px){
+    .container{
+         width: 300px;
+    }
+     body{
+        width: 100%;
+        background-size: contain;
+    }
+    .square{
+        width: 100%;
+        height: 914px;
+        background-size: cover;
+    }
+    img#kv{
+        display:none;
+    }
+    .min-con h2{
+    font-size: 35px;
+    letter-spacing: 0;
+    width: auto;
+    }
+    .min-con a{
+        width: 110px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .min-con{
+        transform: none;
+        width: 267px;
+    }
+    .big-con{
+       height: 500px;
+       transform: translateY(-50px) translateX(27px);
+       flex-direction: column;
+       width: auto;
+   }
+    
+    .nav-item{
+        width: 60px;
+    }
+    a#nav-1 {
+        width: 60px;
+        height: 40px;
+        font-size: 10px;
+        transform: translateX(217px) translateY(72px);
+    }
+    a#nav-2 {
+        width: 100px;
+        font-size: 10px;
+        transform: translateX(80px);
+        margin: 0;
+    }
+    a#nav-3 {
+        width: 40px;
+        font-size: 10px;
+        height: 40px;
+        transform: translateY(2px) translateX(228px);
+        margin: 0;
+    }
+    a#nav-4 {
+        transform: translateY(-55px) translateX(-30px);
+        width: 78px;
+        height: 40px;
+        font-size: 10px;
+        margin: 0;
+    }
+    .navbar-brand img {
+        transform: translateY(-15px) translateX(-227px);
+    }
+    a#nav-brand{
+        background: none;
+    }
+    nav{
+        width: 320px;
+        transform: translateY(-110px);
+    }
+    .fotos{
+        margin: 0;
+        width: 260px;
+        transform: none;
+    }
+    .fotos img{
+        width: 150px;
+        height: 150px;
+
+    }
+    div.fotos img#foto3 {
+        transform: translateY(-157px) translateX(-50px);
+    }
+    div.fotos img#foto2 {
+        transform: translateX(113px) translateY(-10px);
+    }
+    div.fotos img#foto1 {
+        transform: translateY(225px) translateX(30px);
+    }
+    img#foto4,img#foto5,img#foto6{
+        display: none;
+    }
+    .relax h5 {
+        font-size: 25px;
+        width: 181px;
+        text-align: center;
+    }
+    .relax h6 {
+        font-size: 10px;
+        text-align: center;
+    }
+    .relax p {
+        font-size: 10px;
+        width: 183px;
+        margin: 50px 0px 30px 0;
+    }
+    .relax a {
+        width: 110px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .relax .card-body {
+        width: 200px;
+        transform: translateX(70px) translateY(-82px);
+    }
+    .relax .col-md-8{
+        width: 100%;
+        flex-direction: column;
+    }
+    div.row.g-0{
+        width: 100%;
+    }
+    img#img2 {
+        transform: translateY(-589px);
+        height: 350px;
+        width: 320px;
+    }
+    div.row.g-0{
+        height: 200px;
+    }
+    .relax a{
+        transform: translateY(20px);
+    }
+    .relax .col-md-4 img {
+        width: 200px;
+        height: 118px;
+        transform: translateX(66px) translateY(-60px);
+    }
+    .beach{
+        background-image: url(./img/Union.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 320px;
+        height: 500px;
+    }
+    .container-grid{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .beach .container{
+        margin: 0;
+        transform: translateY(64px);
+    }
+    .beach h2{
+       width: 200px;
+        font-size: 20px;
+    }
+    .beach h4{
+       
+        font-size: 10px;
+    }
+    .beach .cards{
+        flex-wrap: wrap;
+
+    }
+    .beach img{
+        display: none;
+    }
+    .beach .card{
+        width: 100px !important;
+        height: 100px;
+        border: #39BFA7 3px solid;
+        margin: 0;
+    }
+    div.card.crd2{
+        transform: translateY(-181px) rotate(45deg);
+    }
+    div.card.crd1 {
+        transform: translateY(-123px) rotate(45deg) translateX(35px);
+    }
+    div.card.crd3 {
+        transform: translateY(-71px) rotate(45deg) translateX(-37px);
+    }
+    div.card.crd4{
+        transform: translateY(-181px) rotate(45deg);
+    }
+    div.card.crd4 {
+        transform: translateY(-228px) rotate(45deg) translateX(155px);
+    }
+    .beach h7{
+        font-size: 15px;
+    }
+    .beach .card-subtitle{
+        border: #3f101099 3px solid;
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .Blog{
+        margin: 60PX;
+        width: 320px;
+        height: 409px;
+    }
+    .Blog h3{
+        font-size: 20px;
+
+    }
+    .Blog h4{
+        font-size: 15px;
+        padding: 5px;
+        
+    }
+    .Blog .text img{
+        width: 100px;
+    }
+    .Blog h6 {
+        font-size: 10px;
+        padding: 10px 0;
+    }
+    .Blog h6 {
+        font-size: 8px;
+        padding: 10px 0;
+        WIDTH: 200PX;
+        TEXT-ALIGN: CENTER;
+    }
+    .Blog .albom img#plane{
+        height:107px;
+        width: 50px;
+        margin: 0;
+    }
+    .Blog .albom img#plane2{
+        height:48px;
+        width: 48px;
+        margin: 4px;
+    }
+    .Blog .albom img#plane3{
+        height:50px;
+        width: 100px;
+        margin: 4px;
+    }
+    .Blog .albom img#plane4{
+        height:48px;
+        width: 48px;
+        margin: 4px;
+    }
+    .Blog .albom img#plane5{
+        height:48px;
+        width: 48px;
+        margin: 4px 0 4px 4px;
+    }
+    .Blog .albom img#plane6{
+        height:48px;
+        width: 48px;
+        margin: 4px 0;
+    }
+    .albom{
+        width: 320px;
+        height: auto;
+        margin: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .fotogr{
+        width: 170px;
+    }
+    .Blog a{
+        width: 80px;
+        height: 30px;font-size: 10px;
+    }
+    .container-roadmap{
+        height: 409px;
+    }
+    .container-roadmap .ram .left h3{
+        font-size: 20px;
+    }
+    .container-roadmap .ram{
+        width: 320px;
+        height: 500px;
+        display: none;
+    }
+    .container-roadmap .zagol h2{
+        font-size: 20px;
+    }
+    .container-roadmap .zagol p{
+        font-size: 10px;
+    }
+    .container-roadmap .card-title{
+        font-size: 20px;
+    }
+    .right .card-text{
+        font-size: 10px;
+    }
+    .journey .form{
+        width: 300px;
+        font-size: 10px;
+        
+    }
+    .journey .form select#validationServer04{
+        font-size: 10px;
+    }
+    .form-control{
+        height: 30px !important;
+        border: #39BFA7 2px solid !important;
+    }
+    .journey .form span#inputGroupPrepend3{
+        height: 30px;
+        border: #F87932 2px solid;
+    }
+    .journey .form select#validationServer04{
+        height: 30px;
+        border: #39BFA7 2px solid;
+        
+    }
+    button.btn.btn-primary{
+        height: 30px;
+        font-size: 10px;
+        width: 110px;
+    }
+    div.col-12{
+        text-align: center;display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer{
+        width: 100%;
+    }
+    footer .call{
+        font-size: 10px;
+        width: 95px !important;
+    }
+    footer .up{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .down h5{
+        font-size: 10px;
+    }
+    footer .down h6{
+        font-size: 8px;
+        width: 147px;
+        margin: 5px !important;
+    }
+    footer .down img{
+        width: 57px;
+        margin: 5px;
+    }
 }
